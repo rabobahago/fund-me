@@ -16,12 +16,4 @@ const verify = async (contractAddress, args) => {
     }
 }
 
-// main
-main()
-    .then(() => process.exit(0))
-    .catch((error) => {
-        console.error(error)
-        process.exit(1)
-    })
-
 module.exports = { verify }
